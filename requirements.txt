@@ -1,0 +1,11 @@
+# Update Package Processor Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Azure Blob Storage SDK
+azure-storage-blob>=12.19.0
+
+# Azure Functions runtime (only needed if running the API locally)
+azure-functions>=1.18.0
+
+# For local testing / dev utilities
+python-dotenv>=1.0.0
